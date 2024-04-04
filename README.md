@@ -19,6 +19,6 @@ HTML - CSS - JavaScript
 ☑️Obtention d'un TOKEN pour l'API MétéoConcept  
 ➕Création du HTML  
 ➕Création du CSS  
-➕Création du JS
-➕Vérification du code
-➕Vérification sur plusieurs navigateurs différents
+➕Création du JS  
+➕Vérification du code  
+➕Vérification sur plusieurs navigateurs différents  
