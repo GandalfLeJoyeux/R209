@@ -17,8 +17,11 @@ HTML - CSS - JavaScript
 ☑️Création du Repo  
 ☑️Création du README  
 ☑️Obtention d'un TOKEN pour l'API MétéoConcept  
-➕Création du HTML  
-➕Création du CSS  
+☑️Création du HTML  
+☑️Création du CSS  
 ➕Création du JS  
 ➕Vérification du code  
 ➕Vérification sur plusieurs navigateurs différents  
+➕Écriture du code HTML  
+➕Écriture du code CSS  
+➕Écriture du code JS  
