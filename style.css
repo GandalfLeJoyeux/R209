@@ -5,6 +5,7 @@ h1 {
 
 #boxinput {
     text-align: center;
+
 }
 
 footer {
@@ -14,12 +15,14 @@ footer {
     margin: 10%;
     line-height: 1px;
     border-radius: 50px;
+
 }
 
 body {
     color: white;
     font-weight: bolder;
     font-family: 'Roboto Mono';
+
 }
 
 
