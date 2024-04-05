@@ -13,6 +13,12 @@ Faire un site simple permettant d'avoir la météo en "un" clic en utilisant deu
 ## Compétence mobilisées :
 HTML - CSS - JavaScript
 
+## Éléments à renvoyer :
+- Température min
+- Température max
+- Probabilité de pluie
+- Nombres d'heures d'ensoleillement
+
 ## TO-DO List
 ☑️Création du Repo  
 ☑️Création du README  
