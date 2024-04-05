@@ -4,7 +4,7 @@ const expr_reg = /^\d{5}$/;
 
 input.addEventListener("input", updateValue);
 
-if expr_reg.test(code_postal){
+if (expr_reg.test(code_postal)){
     RequestMeteo(RequestInsee(code_postal))
 }
 
@@ -21,6 +21,18 @@ async function RequestMeteo(insee) {
 
     catch (error) {
         console.error("Erreur lors de la requête API météo : ", error);
+        throw error;
+    }
+}
+
+async function RequestInsee(cp) {
+    try {
+        const cpres = await fetch(`https://geo.api.gouv.fr/communes?codePostal=${cp}`)
+        const cpdata = await cpres.json()
+        return cpdata
+    }
+    catch (error) {
+        console.error("Erreur lors de la récupération du code Insee : ", error)
         throw error;
     }
 }
