@@ -1,5 +1,10 @@
 h1 {
     text-align: center;
+
+}
+
+#input {
+    text-align: center;
 }
 
 footer {
@@ -8,5 +13,7 @@ footer {
     color: white;
     font-weight: bolder;
     padding: 3px;
+    margin: 10%;
     line-height: 1px;
+    border-radius: 30px;
 }

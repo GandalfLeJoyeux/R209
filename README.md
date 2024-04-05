@@ -1,6 +1,6 @@
 # 🎉 Projet Instant Weather 🎉
 
-## Membres : 
+## Membres (TD2) :  
 - Antoine Polidori
 - Yanis De Gray
 - Enzo Ferronha
