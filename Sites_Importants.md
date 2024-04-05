@@ -1,9 +1,11 @@
-# Sites Importants :
+# Sites important / utile :
 
-Sites pour le style :  
-- 
+Sites pour les éléments de style :  
+- https://undesign.learn.uno/
 
-## Mémentos :  
-CSS :
-- https://ecampus.unicaen.fr/pluginfile.php/1601207/mod_resource/content/1/Memento-des-proprietes-CSS.pdf
-- 
+# Mémentos / Docus :  
+Mémentos CSS :  
+- https://ecampus.unicaen.fr/pluginfile.php/1601207/mod_resource/content/1/Memento-des-proprietes-CSS.pdf  
+
+Docu JS :  
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript  
