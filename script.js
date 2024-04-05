@@ -4,7 +4,7 @@ const expr_reg = /^\d{5}$/;
 
 input.addEventListener("input", updateValue);
 
-if console.log(expr_reg.test(code_postal)){
+if expr_reg.test(code_postal){
     RequestMeteo(RequestInsee(code_postal))
 }
 
