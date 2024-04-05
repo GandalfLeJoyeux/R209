@@ -4,13 +4,18 @@ const expr_reg = /^\d{5}$/;
 
 input.addEventListener("input", updateValue);
 
-if (expr_reg.test(code_postal)){
-    RequestMeteo(RequestInsee(code_postal))
-}
 
 function updateValue(e) {
   code_postal = e.target.value;
+  if (expr_reg.test(code_postal)){
+    const test = RequestInsee(code_postal)
+    console.log(test)
 }
+}
+
+
+
+
 
 async function RequestMeteo(insee) {
     try {
@@ -36,3 +41,4 @@ async function RequestInsee(cp) {
         throw error;
     }
 }
+
