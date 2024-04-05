@@ -1,7 +1,12 @@
 const valeur = document.getElementById("input");
 var code_postal;
+const expr_reg = /^\d{5}$/;
 
 input.addEventListener("input", updateValue);
+
+if expr_reg.test(code_postal){
+    RequestMeteo(RequestInsee(code_postal))
+}
 
 function updateValue(e) {
   code_postal = e.target.value;
