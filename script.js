@@ -1,15 +1,23 @@
 const valeur = document.getElementById("input");
-var code_postal;
+const liste = document.getElementById("villes")
+let code_postal;
 const expr_reg = /^\d{5}$/;
+let code_postal;
 
-input.addEventListener("input", updateValue);
+valeur.addEventListener("input", updateValue);
 
 
-function updateValue(e) {
-  code_postal = e.target.value;
+function updateValue() {
+  code_postal = valeur.value;
   if (expr_reg.test(code_postal)){
-    const test = RequestInsee(code_postal)
-    console.log(test)
+    const communes = RequestInsee(code_postal)
+    console.log(communes)
+    communes.forEach((commune) => {
+        let option = document.createElement('option')
+        option.value = commune.code
+        option.textContent = commune.nom
+        liste.appendChild(option)
+    });
 }
 }
 
