@@ -19,13 +19,16 @@ h1 {
 }
 
 footer {
+    position: absolute;
+    width: 70%;
+    bottom: 5em;
     text-align: center;
     background-color: black;
     padding: 3px;
     margin: 15%;
     margin-bottom: 0%;
-    line-height: 1px;
-    border-radius: 50px;
+    line-height: 1em;
+    border-radius: 40px;
 
 }
 
