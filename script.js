@@ -1,16 +1,16 @@
 const valeur = document.getElementById("input");
-var code_postal;
 const expr_reg = /^\d{5}$/;
+let code_postal;
 
 input.addEventListener("input", updateValue);
 
 
 function updateValue(e) {
-  code_postal = e.target.value;
-  if (expr_reg.test(code_postal)){
-    const test = RequestInsee(code_postal)
-    console.log(test)
-}
+    code_postal = e.target.value;
+    if (expr_reg.test(code_postal)) {
+        const test = RequestInsee(code_postal)
+        console.log(test)
+    }
 }
 
 
