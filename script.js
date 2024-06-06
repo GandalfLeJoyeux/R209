@@ -27,7 +27,7 @@ function updateValue() {
 
 async function RequestMeteo(insee) {
     try {
-        const res = await fetch(`https://api.meteo-concept.com/api/forecast/daily/0?token=bed2667d06926b83c2780e247db4c70a28afc391d138efb8f2216f2de64bd7c0&insee=${insee}`);
+        const res = await fetch(`https://api.meteo-concept.com/api/forecast/daily/0?token=token&insee=${insee}`);
         /* "api/forecast/daily/0" permet d'avoir les données météo du jour même, jour entre 0 et 13 (Pour le jour même : 0, pour le lendemain : 1, etc.). */
         const datares = await res.json();
         const jsonstring = JSON.stringify(datares);
